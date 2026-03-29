@@ -10,6 +10,6 @@ class Dog:
 
 # Create an object
 d1 = Dog("Buddy", 3)
-
+print(d1.age)
 # Call the bark method
 d1.bark()
