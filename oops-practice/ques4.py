@@ -16,12 +16,13 @@ print(s1.marks)
 # What to do:
 #Add attributes brand and price using constructor. Create a method to display details.
 class car:
-    def __init__(self,brand,price):
+    def __init__(self,brand,price,model):
         self.brand=brand
         self.price=price
+        self.model=model
 
     def display(self):
-              print("the details are:" , self.brand , self.price)
+              print("the details are:" , self.brand , self.price, self.model)
         
-c1=car("ferrari",30000)
+c1=car("ford",30000,"mustang")
 c1.display()
