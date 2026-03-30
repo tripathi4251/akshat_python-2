@@ -15,7 +15,7 @@ class scoreBoard:
         self.name=name
 
     def show(self):
-        print("the name is:"  + self.name)
+        print("the name is:" , self.name)
 
     def get_score(self):
      return self._score
