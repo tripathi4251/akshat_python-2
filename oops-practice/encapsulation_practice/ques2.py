@@ -6,9 +6,6 @@
 
 
 
-
-
-
 class scoreBoard:
     def __init__(self,score,name):
         self._score=score
