@@ -12,3 +12,18 @@ class employee:
 
 e1 = employee("Akshat" , 300000)
 e1.display()
+
+#Create a class Laptop
+#What to do:
+#Store brand and RAM. Create method to display info.
+
+class laptop:
+    def __init__(self,brand,ram):
+        self.brand=brand
+        self.ram=ram
+
+    def display(self):
+        print("the brand name is : " , self.brand , "\n the storage is:" , self.ram)
+
+c1=laptop("lenovo",128)
+c1.display()
