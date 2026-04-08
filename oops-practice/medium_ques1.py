@@ -1,3 +1,7 @@
+#Student Grade Calculator
+# What to do:
+#Store marks and create method to calculate grade.
+
 class student:
     def __init__(self,marks):
         self.marks=marks
