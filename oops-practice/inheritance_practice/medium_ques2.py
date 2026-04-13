@@ -1,6 +1,6 @@
 #Shape → Circle & Rectangle
 # What to do:
-#Use same method name area() but different logic (polymorphism + inheritan
+#Use same method name area() but different logic (polymorphism + inheritance)
 
 class shape:
     pass   # no need of common constructor
