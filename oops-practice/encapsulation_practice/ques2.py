@@ -4,8 +4,6 @@
 #Create an object s1 with a score of 0
 #Print the score of s1
 
-
-
 class scoreBoard:
     def __init__(self,score,name):
         self._score=score
