@@ -13,7 +13,5 @@ class car:
 def vehicle(sound):
         sound.start()
 
-    
-    
 vehicle(bike())
 vehicle(car())
