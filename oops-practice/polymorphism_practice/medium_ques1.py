@@ -1,3 +1,9 @@
+#Shape Area 
+#What to do:
+#Create a parent class Shape with method area().
+#Child classes: Circle, Rectangle.
+#Each should calculate its own area.
+
 class shape:
     def area(self):
         pass
